@@ -28,9 +28,7 @@ provider = provider_instance.get_provider()
 model = OpenAIChatCompletionsModel(model="gemini-2.0-flash", openai_client=provider)
 
 
-
 # (Abstraction + Static)
-
 class ShahidDataFetcher:
     @staticmethod
     @function_tool("get_shahid_data")
