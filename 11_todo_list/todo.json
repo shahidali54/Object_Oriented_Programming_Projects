@@ -1,0 +1,10 @@
+[
+    {
+        "task": "Buy groceries",
+        "completed": false
+    },
+    {
+        "task": "Walk the dog",
+        "done": false
+    }
+]
